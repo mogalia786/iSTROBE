@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882F90F51D9A6EE900F08F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90F41D9A6EE900F08F40 /* AppDelegate.swift */; };
+		882F90F71D9A6EE900F08F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F90F61D9A6EE900F08F40 /* ViewController.swift */; };
+		882F90FA1D9A6EE900F08F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882F90F81D9A6EE900F08F40 /* Main.storyboard */; };
+		882F90FC1D9A6EE900F08F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882F90FB1D9A6EE900F08F40 /* Assets.xcassets */; };
+		882F90FF1D9A6EE900F08F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882F90FD1D9A6EE900F08F40 /* LaunchScreen.storyboard */; };
+		882F910A1D9A6EE900F08F40 /* IS_EhealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F91091D9A6EE900F08F40 /* IS_EhealthTests.swift */; };
+		882F91151D9A6EE900F08F40 /* IS_EhealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F91141D9A6EE900F08F40 /* IS_EhealthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882F91061D9A6EE900F08F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882F90E91D9A6EE900F08F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882F90F01D9A6EE900F08F40;
+			remoteInfo = IS_Ehealth;
+		};
+		882F91111D9A6EE900F08F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882F90E91D9A6EE900F08F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882F90F01D9A6EE900F08F40;
+			remoteInfo = IS_Ehealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882F90F11D9A6EE900F08F40 /* IS_Ehealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IS_Ehealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F90F41D9A6EE900F08F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		882F90F61D9A6EE900F08F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		882F90F91D9A6EE900F08F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882F90FB1D9A6EE900F08F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882F90FE1D9A6EE900F08F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882F91001D9A6EE900F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882F91051D9A6EE900F08F40 /* IS_EhealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IS_EhealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F91091D9A6EE900F08F40 /* IS_EhealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IS_EhealthTests.swift; sourceTree = "<group>"; };
+		882F910B1D9A6EE900F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882F91101D9A6EE900F08F40 /* IS_EhealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IS_EhealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882F91141D9A6EE900F08F40 /* IS_EhealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IS_EhealthUITests.swift; sourceTree = "<group>"; };
+		882F91161D9A6EE900F08F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882F90EE1D9A6EE900F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F91021D9A6EE900F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F910D1D9A6EE900F08F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882F90E81D9A6EE900F08F40 = {
+			isa = PBXGroup;
+			children = (
+				882F90F31D9A6EE900F08F40 /* IS_Ehealth */,
+				882F91081D9A6EE900F08F40 /* IS_EhealthTests */,
+				882F91131D9A6EE900F08F40 /* IS_EhealthUITests */,
+				882F90F21D9A6EE900F08F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		882F90F21D9A6EE900F08F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882F90F11D9A6EE900F08F40 /* IS_Ehealth.app */,
+				882F91051D9A6EE900F08F40 /* IS_EhealthTests.xctest */,
+				882F91101D9A6EE900F08F40 /* IS_EhealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882F90F31D9A6EE900F08F40 /* IS_Ehealth */ = {
+			isa = PBXGroup;
+			children = (
+				882F90F41D9A6EE900F08F40 /* AppDelegate.swift */,
+				882F90F61D9A6EE900F08F40 /* ViewController.swift */,
+				882F90F81D9A6EE900F08F40 /* Main.storyboard */,
+				882F90FB1D9A6EE900F08F40 /* Assets.xcassets */,
+				882F90FD1D9A6EE900F08F40 /* LaunchScreen.storyboard */,
+				882F91001D9A6EE900F08F40 /* Info.plist */,
+			);
+			path = IS_Ehealth;
+			sourceTree = "<group>";
+		};
+		882F91081D9A6EE900F08F40 /* IS_EhealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				882F91091D9A6EE900F08F40 /* IS_EhealthTests.swift */,
+				882F910B1D9A6EE900F08F40 /* Info.plist */,
+			);
+			path = IS_EhealthTests;
+			sourceTree = "<group>";
+		};
+		882F91131D9A6EE900F08F40 /* IS_EhealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				882F91141D9A6EE900F08F40 /* IS_EhealthUITests.swift */,
+				882F91161D9A6EE900F08F40 /* Info.plist */,
+			);
+			path = IS_EhealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882F90F01D9A6EE900F08F40 /* IS_Ehealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F91191D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_Ehealth" */;
+			buildPhases = (
+				882F90ED1D9A6EE900F08F40 /* Sources */,
+				882F90EE1D9A6EE900F08F40 /* Frameworks */,
+				882F90EF1D9A6EE900F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IS_Ehealth;
+			productName = IS_Ehealth;
+			productReference = 882F90F11D9A6EE900F08F40 /* IS_Ehealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882F91041D9A6EE900F08F40 /* IS_EhealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F911C1D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_EhealthTests" */;
+			buildPhases = (
+				882F91011D9A6EE900F08F40 /* Sources */,
+				882F91021D9A6EE900F08F40 /* Frameworks */,
+				882F91031D9A6EE900F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882F91071D9A6EE900F08F40 /* PBXTargetDependency */,
+			);
+			name = IS_EhealthTests;
+			productName = IS_EhealthTests;
+			productReference = 882F91051D9A6EE900F08F40 /* IS_EhealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		882F910F1D9A6EE900F08F40 /* IS_EhealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882F911F1D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_EhealthUITests" */;
+			buildPhases = (
+				882F910C1D9A6EE900F08F40 /* Sources */,
+				882F910D1D9A6EE900F08F40 /* Frameworks */,
+				882F910E1D9A6EE900F08F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882F91121D9A6EE900F08F40 /* PBXTargetDependency */,
+			);
+			name = IS_EhealthUITests;
+			productName = IS_EhealthUITests;
+			productReference = 882F91101D9A6EE900F08F40 /* IS_EhealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882F90E91D9A6EE900F08F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = iSTROBE;
+				TargetAttributes = {
+					882F90F01D9A6EE900F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					882F91041D9A6EE900F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 882F90F01D9A6EE900F08F40;
+					};
+					882F910F1D9A6EE900F08F40 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 882F90F01D9A6EE900F08F40;
+					};
+				};
+			};
+			buildConfigurationList = 882F90EC1D9A6EE900F08F40 /* Build configuration list for PBXProject "IS_Ehealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882F90E81D9A6EE900F08F40;
+			productRefGroup = 882F90F21D9A6EE900F08F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882F90F01D9A6EE900F08F40 /* IS_Ehealth */,
+				882F91041D9A6EE900F08F40 /* IS_EhealthTests */,
+				882F910F1D9A6EE900F08F40 /* IS_EhealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882F90EF1D9A6EE900F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90FF1D9A6EE900F08F40 /* LaunchScreen.storyboard in Resources */,
+				882F90FC1D9A6EE900F08F40 /* Assets.xcassets in Resources */,
+				882F90FA1D9A6EE900F08F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F91031D9A6EE900F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F910E1D9A6EE900F08F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882F90ED1D9A6EE900F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F90F71D9A6EE900F08F40 /* ViewController.swift in Sources */,
+				882F90F51D9A6EE900F08F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F91011D9A6EE900F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F910A1D9A6EE900F08F40 /* IS_EhealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882F910C1D9A6EE900F08F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F91151D9A6EE900F08F40 /* IS_EhealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882F91071D9A6EE900F08F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882F90F01D9A6EE900F08F40 /* IS_Ehealth */;
+			targetProxy = 882F91061D9A6EE900F08F40 /* PBXContainerItemProxy */;
+		};
+		882F91121D9A6EE900F08F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882F90F01D9A6EE900F08F40 /* IS_Ehealth */;
+			targetProxy = 882F91111D9A6EE900F08F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882F90F81D9A6EE900F08F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882F90F91D9A6EE900F08F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882F90FD1D9A6EE900F08F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882F90FE1D9A6EE900F08F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882F91171D9A6EE900F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		882F91181D9A6EE900F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882F911A1D9A6EE900F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IS_Ehealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-Ehealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		882F911B1D9A6EE900F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IS_Ehealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-Ehealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		882F911D1D9A6EE900F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IS_EhealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-EhealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS_Ehealth.app/IS_Ehealth";
+			};
+			name = Debug;
+		};
+		882F911E1D9A6EE900F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IS_EhealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-EhealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS_Ehealth.app/IS_Ehealth";
+			};
+			name = Release;
+		};
+		882F91201D9A6EE900F08F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IS_EhealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-EhealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IS_Ehealth;
+			};
+			name = Debug;
+		};
+		882F91211D9A6EE900F08F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IS_EhealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Istrobe-ehealth.com.IS-EhealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IS_Ehealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882F90EC1D9A6EE900F08F40 /* Build configuration list for PBXProject "IS_Ehealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F91171D9A6EE900F08F40 /* Debug */,
+				882F91181D9A6EE900F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882F91191D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_Ehealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F911A1D9A6EE900F08F40 /* Debug */,
+				882F911B1D9A6EE900F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		882F911C1D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_EhealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F911D1D9A6EE900F08F40 /* Debug */,
+				882F911E1D9A6EE900F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		882F911F1D9A6EE900F08F40 /* Build configuration list for PBXNativeTarget "IS_EhealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882F91201D9A6EE900F08F40 /* Debug */,
+				882F91211D9A6EE900F08F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882F90E91D9A6EE900F08F40 /* Project object */;
+}
